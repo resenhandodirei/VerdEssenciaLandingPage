@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import SobreNutricionista from "./components/SobreNutricionista";
 import ServicesSection from "./components/ServicesSection";
 import BenefitsSection from "./components/BenefitsSection";
+import Depoiments from "./components/Depoiments";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
     <SobreNutricionista />
     <ServicesSection />
     <BenefitsSection />
+    <Depoiments />
 
     {/* Other sections can be added here */}
     </>
