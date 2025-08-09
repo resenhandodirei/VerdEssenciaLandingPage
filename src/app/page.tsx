@@ -7,6 +7,7 @@ import ServicesSection from "./components/ServicesSection";
 import BenefitsSection from "./components/BenefitsSection";
 import Depoiments from "./components/Depoiments";
 import Contact from "./components/Contact";
+import Localizacao from "./components/Localizacao";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
     <BenefitsSection />
     <Depoiments />
     <Contact />
+    <Localizacao />
 
     </>
   );
