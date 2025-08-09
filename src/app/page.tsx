@@ -8,6 +8,7 @@ import BenefitsSection from "./components/BenefitsSection";
 import Depoiments from "./components/Depoiments";
 import Contact from "./components/Contact";
 import Localizacao from "./components/Localizacao";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
     <Depoiments />
     <Contact />
     <Localizacao />
+    <Footer />
 
     </>
   );
